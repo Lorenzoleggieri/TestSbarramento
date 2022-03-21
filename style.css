@@ -1,0 +1,89 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+nav {
+	width: 100vw;
+	height: 10vh;
+	padding: 2px 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+ul {
+	font-size: medium;
+	list-style: none;
+	color: aqua;
+	display: flex;
+	gap: 5%;
+	width: 30%;
+}
+
+nav a {
+	background-color: aqua;
+	color: white;
+	padding: 8px 25px;
+	border-radius: 4px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	flex-flow: 1;
+	height: 70vh;
+}
+
+main h1 {
+	text-align: center;
+	padding-bottom: 80px;
+	font-size: xx-large;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+}
+
+section div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50vw;
+	padding: 0px 30px;
+}
+
+section div p {
+	font-size: large;
+	padding-bottom: 30px;
+}
+
+section div a {
+	background-color: aqua;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 4px;
+}
+
+div picture {
+	height: 25vh;
+	width: 35vw;
+	background-color: brown;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	border-top: 1px solid black;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+footer p {
+	font-size: medium;
+}
